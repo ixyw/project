@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The elder scrolls</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <style>
+        * {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+                list-style: none;
+        }
+
+        body {
+            height: 100vh;
+            background-color: #d3dafa;
+        }
+        .shell{
+            width: 280px;
+            height: 100%;
+            right: 0;
+            background-color: #8a98c9;
+            position:fixed;
+       }
+        .buttons{
+            margin: 0 0;
+            color: #fff;
+        }
+        .li{
+            letter-spacing: 2px;
+            font: 600 17px '';
+            padding: 16px 52px;
+            transition: .3s;
+        }
+        .li::after{
+            content: '';
+            position: absolute;
+            left: 20px;
+            margin-top: -22px;
+            display: block;
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+            border-radius: 50%;
+        }
+        .buttons>li:hover{
+            background-color: #beb5df;
+        }
+        
+        .li ul{
+            width: 0;
+            height: 530px;
+            padding: 60px 0;
+            position: absolute;
+            top: 0;
+            right: 0;
+            overflow: hidden;
+            background-color: #59699b;
+            transition: .3s;
+        }
+
+        .li ul li{
+            padding: 16px 24px;
+            transition: .3s;
+        }
+
+        .li:hover ul{
+            width: 228px;
+        }
+        .li ul li:hover{
+            background-color: #828eb9;
+        }
+        .li a{
+            text-decoration: none;
+            color: #fff;
+        }
+        main p{
+            margin: auto;
+            text-align: center;
+                font-size: 60px;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 15px;
+                color: #774f38;
+                background-color: #ece5ce;
+                padding: 50px;
+                box-shadow: 20px 20px #83af9b;
+                border-radius: 11px;
+                mix-blend-mode: multiply;
+                animation: float 5s ease-in-out infinite;
+            }
+        main h1{
+            animation: float 5s ease-in-out infinite;
+        }
+        main h2{
+            animation: float 5s ease-in-out infinite;
+        }
+        main h3{
+            animation: float 5s ease-in-out infinite;
+        }
+
+        @keyframes float{
+                0%{
+                    transform: translateY(0px);
+                }
+                50%{
+                    transform: translateY(-20px);
+                }
+                100%{
+                    transform: translateY(0px);
+                }
+            }
+    </style>
+</head>
+<body>
+    <header id="top5">
+        <div class="nav">
+            <div class="navname">
+                <P>The elder scrolls</P>
+            </div>
+            <div>
+            <ul>
+                <li class="navli"><a href="index.html">首页</a>
+                </li>
+                <li class="navli"><a href="index.html#gamelist">出品游戏</a>
+                    <ul class="navdropul">
+                        <li><a href="fallout.html">辐射系列</a></li>
+                        <li><a href="The elder scrolls.html">上古卷轴系列</a></li>
+                        <li><a href="doom.html">DOOM系列</a></li>
+                        
+                    </ul>
+                </li>
+                <li class="navli"><a href="index.html#gamelist">游戏新品</a>
+                    <ul class="navdropul">
+                        <li><a href="starfield.html">星空</a></li>
+                        <li><a href="fallout.html#fallout76">辐射76</a></li>
+                    </ul>
+                </li>
+                <li class="navli"><a href="gs.html">公司</a>
+                    <ul class="navdropul">
+                        <li><a href="gs.html#weiruan">母公司</a>
+                            <ul class="navdropul2">
+                                <li><a href="gs.html#weiruan">Microsoft</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="gs.html#ids">工作室</a>
+                            <ul class="navdropul2">
+                                <li><a href="gs.html#bgs">BGS工作室</a></li>
+                                <li><a href="gs.html#ids">Id Software </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navli"><a href="#">报告与技术</a>
+                    <ul class="navdropul">
+                        <li><a href="Login.html">登录</a>
+                        </li>
+                        <li><a href="conclusion.html">报告页</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+    </header>
+    <div class="backtop1">
+        <a href="#top5">回到顶部</a>
+    </div>
+    <nav class="shell">
+        <ul class="buttons">
+            <li class="li">
+               <a href="#1"> 上古卷轴：竞技场</a>
+                <ul>
+                    <li><a href="#wutai1">舞台</a></li>
+ 
+                </ul>
+            </li>
+
+            <li class="li">
+                <a href="#2">上古卷轴2：匕首雨</a>
+                <ul>
+                    <li><a href="#wutai2">背景</a>    </li>
+                   <li><a href="#ditu">地图</a></li>
+                </ul>
+            </li>
+
+            <li class="li">
+                <a href="#3">上古卷轴3：晨风</a>
+                <ul>
+                    <li><a href="#youxijianjie">游戏简介</a>  </li>
+                    <li><a href="#youxijietu3">游戏截图</a></li>
+                </ul>
+            </li>
+
+            <li class="li">
+                <a href="#4">上古卷轴4：湮没</a>
+                <ul>
+                    <li><a href="#tesexitong">特色系统</a>           </li>
+                    <li><a href="#dlc">游戏dlc</a></li>
+                    <li><a href="#youxijietu2">游戏截图</a></li>
+                </ul>
+            </li>
+
+            <li class="li">
+                <a href="#5">上古卷轴5：天际</a>
+                <ul>
+                    <li><a href="#wutai3">舞台</a>           </li>
+                    <li><a href="#youxijietu">游戏截图</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <main style="width: 1088px; ">
+        <br><br><br><br>
+        <div class="parent" style="height: 4000px;">
+            <div class="div1" style="position: relative ;top: 400px;">  <p style=" overflow: hidden;padding: 0px; width: 100%;height: 500px; box-shadow: none;"><img src="pic/上古卷轴pic/kaitou.jpeg" style="height: 100%; width: 100%;"></p></div>
+            <div class="div2" style="height: 450px; position: static;"> <h1 id="1" style="font-size: 20px;">上古卷轴：竞技场</h1>
+                <p>《上古卷轴：竞技场》是《上古卷轴》系列的第一部作品。发行于1994年。2004年，作为上古卷轴系列十周年纪念的一部分，官方免费放出了Windows平台上可用的下载版本。故事围绕皇帝尤里尔·赛普丁七世被帝国的战斗法师杰卡·萨恩背叛并被囚禁在另一个位面。你要孤身一人到广阔的泰姆瑞尔大陆上旅行并寻找传奇的混沌之杖来救出真正的皇帝并使帝国重建和平。</p> </div>
+            <div class="div3" style="height: 450px;"><h2 id="wutai1" >舞台</h2>
+                <p>帝国战地法师贾格·萨恩背叛了皇帝乌列尔·赛普汀，将他囚禁在另一个维度，然后夺取了皇帝身份并登上了王位。在这种情况下，一个形单影只的囚犯必须前往泰姆瑞尔最著名、最危险的地点，收集混沌权杖碎片、营救皇帝并解放帝国。 </p> </div>
+            <div class="div4" style=" position: relative; "> <h1 id="2" style="font-size: 20px;">上古卷轴2：匕首雨</h1>
+                <p style="color: #fff;background-color: black;">《上古卷轴2：匕首雨》是贝塞斯达在1996年9月20日发行的系列的第二部作品。匕首坠落于高岩和落锤两省之间的伊利亚克湾。应皇帝的个人要求将玩家送往这里。他希望玩家做两件事：第一，玩家必须从他的尘世束缚中解脱吕珊杜斯国王的幽灵；其次，玩家必须发现皇帝给前匕首女王的一封信发生了什么，由此展开了新的冒险。与《上古卷轴》系列中的其他游戏一样，《匕首雨》也发生在虚构的泰姆瑞尔大陆上，玩家可以在该大陆之间穿越高岩省和落锤省。与所有《上古卷轴》游戏一样，玩家无需遵循任务线或扮演特定角色，从而使玩家可以按照自己的意愿玩游戏。</p></div>
+            <div class="div5" style="position: relative; "> <h2 id="wutai2">背景</h2>
+                <p style="color: #fff;background-color: black;">人们在伊利亚克湾发现了古老魔像努米迪姆这种强大的武器。它曾被伟大的提伯·赛普汀用来统一泰姆瑞尔。在接下来的权力斗争中，坠匕之王被谋杀，他的灵魂萦绕着王国。于是，皇帝乌列尔·赛普汀七世派他的勇士去高岩省让国王的灵魂安息并确保魔像不会落入坏人之手。</p><br>
+                <h3 style="text-align: center;" id="ditu">地图</h3><p  style="padding: 0px;overflow: hidden;"><img src="pic/上古卷轴pic/ditu.jpg" style="width: 100%;height: 100%; "></p></div>                         
+                
+                <div class="div6" style="position: relative; "><br><br><br><br><h1 id="3">上古卷轴3：晨风</h1>
+                <p style="background-color: pink; color: white;">《上古卷轴3：晨风》是由贝塞斯达软件公司开发的一款角色扮演游戏。由贝塞斯达软件公司和育碧公司联合发行于2002年。是上古卷轴系列的第三代作品。
+                在中国大陆地区，《晨风》由天人互动代理发行于2002年7月。游戏的故事发生在晨风省（Morrowind）的瓦登费尔岛上。
+                主要描述的故事是尼尔瓦瑞因成为帝国军团的帝国龙骑士，挫败达格斯·乌尔（Dagoth Ur）利用洛可汗之心制造机械邪神阿库拉可汗（Akulakhan）企图消灭审判席（Tribunal）征服整个泰姆瑞尔大陆等阴谋的故事。其资料片包括《上古卷轴3审判席》。</p> </div>
+             
+                
+            <div class="div8"  style="position: relative; "> <br><br><br><br> <h2 id="youxijietu3">游戏截图</h2>
+                <p style=" overflow: hidden;padding: 0px;  height: 500px;"><img src="pic/上古卷轴pic/fen1.jpg" style="width: 100%;height: 100%;"></p></div>
+                <div class="div11"  style="position: relative;"><br><br><br><br><h2 id="youxijianjie"> 游戏简介 </h2>
+                    <p style="background-color: pink; color: white;">在法庭里，你将前往首都Morrowind，名为Mournhold，与莫罗温德的另外两位神王阿尔玛莱西亚和索塔·西尔会面。您的旅程将带您前往Sotha Sil的发条城和巨大的史诗般大小的地下城，在那里，奇怪而致命的生物等待着您，包括妖精、巫妖领主和神秘的捏造者。
+                    《血色之月》带你去索尔斯提姆岛，在那里你将体验到雪原、暴风雪和新生物，包括霜巨魔、冰小人和狼。。。仅举几个例子。你可以选择故事发展的方向，有机会保卫殖民地，控制殖民地的建立，消灭狼人。或者，你可以决定加入狼人，成为其中的一员，开启全新的游戏风格</p></div>     
+                    <div class="div9" style="position: relative; "><br><br><br><br>
+                <h1 id="4">上古卷轴4：湮没</h1>
+                <p>《上古卷轴4：湮没》是由贝塞斯达开发制作的角色扮演游戏，该游戏已于2006年发行。后于2013年7月3日正式发布年度版数字豪华版。
+                    同时该游戏也是2002年贝塞斯达推出的《上古卷轴3：晨风》的续篇。
+                    《上古卷轴4：湮没》的故事发生在泰姆瑞尔的首都克罗迪尔，老国王不久前被未知的刺客暗杀，而玩家的任务就是找到他失踪的后嗣以继承空荡荡的王座。</p> 
+                </div>
+            <div class="div10" style="position: relative; "><br><br><br><br>
+                <h2 id="youxijietu2">游戏截图</h2>
+                <p style=" overflow: hidden;padding: 0px;"><img src="pic/上古卷轴pic/3.jpeg" style="width: 100%;height:100%;"></p><br><br>
+                <p style=" overflow: hidden;padding: 0px;"><img src="pic/上古卷轴pic/4-2.jpeg" style="width: 100%;height: 100%"></p></div>
+            
+            <div class="div12" style="position: relative; "> <br><br><br><br>  <h2 id="tesexitong">特色系统</h2>
+                <p style="overflow: hidden;padding: 50px;">
+                    2.1特色mod系统：
+                    mod：是指官方或非官方制作的原版游戏修改文件，内容包括方方面面，诸如面貌身材、武器时装、翅膀、漂浮潜水、新的生物甚至不逊资料片的大型任务。上古卷轴4能够成为一部神作，很大程度上是因为该系统的存在为玩家提供了无尽的可能性。
+                    2.2 Construction Set：
+                    上古卷轴提供了内容编辑器，借助cs可以查找各种代码、修改装备属性等，可以说将游戏的操作性全部交给了玩家。</p></div>
+            <div class="div18"  style="position: relative; "> <br><br><br><br><h2 id="dlc">游戏dlc</h2>
+                <p> 上古卷轴4资料片
+                    《战栗孤岛》单主线剧情的游戏时间将超过30小时。地图的范围将是《上古卷轴4湮灭》的四分之一左右。原版游戏中使用的角色也可以在资料片中游玩，相互自由来往。
+                    这次新的冒险舞台战栗孤岛Shiverling Isles由Mania和Dement两个地域构成，地域内生息着12种以上新的怪兽。游戏还准备了新的道具和咒语。同时也为角色设计了新的盔甲和武器等。
+                    在这个全新的世界中将出现全新的植物、环境场景、生物以及NPC。
+                    在《上古卷轴4：湮没》中Bravil附近的Niben湾，玩家就可以找到通向这个全新世界的入口。</p></div>
+            <div class="div13" style="position: relative; "><h2 id="wutai3">舞台</h2>
+                <p style="background-color: black;color: white;">
+                   因为在诺德文化中，塔洛斯被认为是诺德人的英雄，所以对塔洛斯的信仰在诺德人的家乡天际非常普及。塔洛斯的信仰被废止，极大地伤害了许多诺德人的民族感情，引起了许多诺德人对帝国统治的不满。东境领领主，暨风盔城城主，乌弗瑞克·风暴斗篷就是其中一位典型的代表人物。
+                   第四纪元201年初，帝国支持的新任天际至高王托依格，在独孤城被迫参加了由乌弗瑞克提出的诺德传统决斗。年轻的至高王自然不是乌弗瑞克这样一位战斗经验丰富而且会龙吼的职业军人的对手。乌弗瑞克杀死了托依格，并逃回风盔城，联合天际东部的领主发起风暴斗篷叛乱，与支持帝国的天际西部对峙。 [8] 
+                   白漫领位于天际中心，其领主巴尔古夫决定暂时在内战中保持中立。
+                   帝国派遣图留斯将军前往天际镇压叛乱。乌弗瑞克的一个手下被买通，在一场设计的伏击中，乌弗瑞克·风暴斗篷被帝国捕获。
+                   本作的主角似乎在穿越边境时误打误撞来到帝国的伏击圈，被当作风暴斗篷叛军，继而被俘虏。游戏开场时，主角恰巧和乌弗瑞克在同一辆囚车上。
+               </p></div>
+            <div class="div14" style="position: relative; "><h1 id="5">上古卷轴5：天际</h1>
+                <p style="background-color: black;color: white;">《上古卷轴5：天际》是由贝塞斯达开发制作的角色扮演类单机游戏。游戏于2011年11月11日登陆PC、PS3、Xbox 360等平台。之后的重制版《上古卷轴5：天际 特别版》于2016年10月28日登陆PC、PS4、Xbox One等平台，Nintendo Switch版《上古卷轴5 天际》，美版于17年11月17日发售，日版在2018年早期发售。
+                游戏的背景时间设定在《上古卷轴4：湮没》的200年之后，地点为人类帝国的天际省。玩家将扮演传说中的龙裔，踏上对抗世界吞噬者巨龙奥杜因的征途。另外，还有天际内战、魔神器、地下遗迹、组织势力等各类支线和隐藏任务，具有庞大的世界观和高自由度。
+                     </p> </div>
+            <div class="div15" style="position: relative; "><br> <p style=" overflow: hidden;padding: 0px; height: 184.1px;"><img src="pic/上古卷轴pic/5-6.jpeg" style="width: 100%;height: 100%;"></p> <br><br> <p style="overflow: hidden;padding: 0px;height: 184.1px;"><img src="pic/上古卷轴pic/5-7.jpeg" style="width: 100%;height: 100%;"></p> <br><br><p style="overflow: hidden;padding: 0px;height: 184.1px;"><img src="pic/上古卷轴pic/5-8.jpeg" style="width: 100%;height: 100%;"></p><br><br><p style="overflow: hidden;padding: 0px;height: 184.1px;"><img src="pic/上古卷轴pic/5-9.jpeg" style="width: 100%;height: 100%;"></p> </div>
+            <div class="div16" style="position: relative; ">            <h2 id="youxijietu">游戏截图</h2>
+            <p style=" overflow: hidden;padding: 0px;height: 184.1px;"><img src="pic/上古卷轴pic/5-1.jpeg" style="width: 100%;height: 100%;"></p> <br><br> <p style="overflow: hidden;padding: 0px;height: 184.1px;"><img src="pic/上古卷轴pic/5-2.jpeg" style="width: 100%;height: 100%;"></p> <br><br><p style="overflow: hidden;padding: 0px;height: 184.1px;"><img src="pic/上古卷轴pic/5-3.jpeg" style="width: 100%;height: 100%;"></p><br><br><p style="overflow: hidden;padding: 0px;height: 184.1px;"><img src="pic/上古卷轴pic/5-4.jpeg" style="width: 100%;height: 100%;"></p></div>
+            
+        </div>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nav.css">
+
+    <title>公司</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-decoration: none;
+    }
+    .shell{
+        height: 100vh;
+        overflow-x: hidden;
+        perspective: 3px;
+    }
+    .shell div{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: 30px;
+        letter-spacing: 2px;
+    }
+    .image{
+        transform: translateZ(-1px) scale(1.4);
+        background-size: cover;
+        height: 100vh;
+        z-index: -1;
+    }
+
+    .text{
+        height: 30vh;
+        background-color:black;
+
+
+    }
+    .text h1{
+        margin-left: 10%;
+        margin-right: 10%;
+    color: #cce7f8;
+    font-size: 25px;
+    -webkit-animation: shining 0.5s alternate infinite;
+    animation: shining 0.5s alternate infinite;
+    }
+    @keyframes wshining {
+    from {
+        text-shadow: 0 0 10px rgb(135, 168, 180), 0 0 20px rgb(103, 131, 140), 0 0 30px lrgb(73, 112, 125) 0 0 40px rgb(57, 108, 129), 0 0 50px rgb(54, 108, 129), 0 0 60px skyblue;
+    }
+
+    to {
+        text-shadow: 0 0 5px rgb(139, 175, 186), 0 0 10px lightblue, 0 0 15px rgb(115, 145, 155), 0 0 20px rgb(90, 139, 158), 0 0 25px rgb(72, 118, 137), 0 0 30px rgb(103, 160, 182);
+    }
+}
+    .heading{
+        z-index: -1;
+        transform: translateY(-30vh) translateZ(1px);
+        color: #fff;
+        font-size: 30px;
+    }
+</style>
+
+<body style="background-color: black;">
+    <header>
+        <div class="nav">
+            <div class="navname">
+                <P>Bethesda</P>
+            </div>
+            <div>
+            <ul>
+                <li class="navli"><a href="index.html">首页</a>
+                </li>
+                <li class="navli"><a href="index.html#gamelist">出品游戏</a>
+                    <ul class="navdropul">
+                        <li><a href="fallout.html">辐射系列</a></li>
+                        <li><a href="The elder scrolls.html">上古卷轴系列</a></li>
+                        <li><a href="doom.html">DOOM系列</a></li>
+                        
+                    </ul>
+                </li>
+                <li class="navli"><a href="index.html#gamelist">游戏新品</a>
+                    <ul class="navdropul">
+                        <li><a href="starfield.html">星空</a></li>
+                        <li><a href="fallout.html#fallout76">辐射76</a></li>
+                    </ul>
+                </li>
+                <li class="navli"><a href="gs.html">公司</a>
+                    <ul class="navdropul">
+                        <li><a href="gs.html#weiruan">母公司</a>
+                            <ul class="navdropul2">
+                                <li><a href="gs.html#weiruan">Microsoft</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="gs.html#ids">工作室</a>
+                            <ul class="navdropul2">
+                                <li><a href="gs.html#bgs">BGS工作室</a></li>
+                                <li><a href="gs.html#ids">Id Software </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navli"><a href="#">报告与技术</a>
+                    <ul class="navdropul">
+                        <li><a href="Login.html">登录</a>
+                        </li>
+                        <li><a href="conclusion.html">报告页</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+    </header>
+    <div class="shell">
+        <div id="weiruan" class="image" style="background-image: url('pic/gs/ms.png'); background-size: 100%;"></div>
+        <div class="heading">
+            <h1>惊天大手笔</h1>
+        </div>
+        <div class="text" style="background-color: black;">
+            <h1>2022年9月22日，美国软件巨头微软已经宣布斥资75亿美元收购知名游戏开发工作室贝塞斯达（Bethesda Softworks）的母公司ZeniMax Media，这是微软迄今最昂贵的视频游戏收购交易，震惊了整个行业。这笔交易为微软带来了三大有时，让其打造玩家期待已久的“游戏版Netflix”梦想距离现实更近了一步。</h1>
+        </div>
+
+        <div id="ids" class="image" style="background-image: url('pic/gs/515d390804c0e60a61165fa9a90cbcea.jpg'); background-size: 100%;"></div>
+        <div class="heading">
+        </div>
+        <div class="text">
+            <h1>公司主要从事电脑游戏以及游戏引擎方面的开发。知名的FPS大作《半条命》（Half-LIfe）和《反恐精英》（Counter-Strike，简称CS）就是利用Quake的引擎制作的。该公司在1993年推出的作品毁灭战士（DOOM）彻底改变了电脑游戏产业，在当时有着里程碑的意义。在2004年该公司推出的作品毁灭战士III在E3游戏大展上也获得了巨大成功，包揽了5项大奖。</h1>
+        </div>
+
+        <div class="image" style="background-image: url('pic/gs/bs.jpeg');"></div>
+        <div class="heading">
+        </div>
+        <div id="bgs" class="text">
+            <h1>贝塞斯达软件公司旗下游戏工作室，开发过《辐射》，《上古卷轴》等广为人知的系列游戏，目前正在着手开发《星空》以及《上古卷轴6》中。</h1>
+        </div>
+
+        <div class="image" style="background-image: url('pic/gs/bsz.jpeg');"></div>
+        <div class="heading">
+        </div>
+
+        <div class="text">
+            <h1>Bethesda Softworks是一家有着逾20年交互式娱乐（包括游戏在内）开发，发行历史的公司。在2001年Bethesda成为了一家专注于游戏发行的公司，并将原有的开发部门组建成了Bethesda Game Studio用以专注于游戏开发。在1999年，公司创始人Weaver和Robert Altman成立了ZeniMax。Bethesda是游戏物理引擎的开拓者和先驱者，</h1>
+        </div>
+
+        <div class="image" style="background-image: url('pic/gs/673756.png'); background-size: 100%;"></div>
+        <div class="heading">
+            <h1>FANTASY</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>

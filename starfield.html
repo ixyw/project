@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>starfield</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/animation2.css">
+    <link rel="stylesheet" href="css/starfield.css">
+
+    <style>
+        * {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+        }
+        body{
+            background-image: url("pic/starfieldpic/thumbbig-985330.jpg" );
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+        .div2{
+           
+            height: 800px;
+        }
+        .a{
+            position: relative;
+            perspective: 1600px;
+            top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .b{
+            width: 400px;
+            height: 250px;
+            position: absolute;
+            transform-style: preserve-3d;
+            animation: a 8s infinite cubic-bezier(.7,0,.17,1);
+        }
+        .b div{
+            position: absolute;
+            background-size: cover;
+            opacity: .9;
+            width: 400px;
+            height: 250px;
+            transform: rotateY(calc(var(--i)*120deg)) translateZ(600px);
+        }
+        @keyframes a{
+            0%{
+                transform: translateZ(-100px) rotateY(0);
+            }
+            33%{
+                transform: translateZ(-100px) rotateY(-120deg);
+            }
+            66%{
+                transform: translateZ(-100px) rotateY(-240deg);
+            }
+            100%{
+                transform: translateZ(-100px) rotateY(-360deg);
+            }
+        }
+        .c{
+            background-image: url("pic/starfieldpic/3d1.jpg");
+            border-radius: 5%;
+        }
+        .d{
+            background-image: url("pic/starfieldpic/3d2.jpg");
+          border-radius: 5%;
+        }
+        .e{
+            background-image: url("pic/starfieldpic/3d3.jpg");
+           border-radius: 5%; 
+        }
+        .div1{
+            text-align: center;
+        }
+        .left{
+            float: left;
+            width: 20%;
+            height: 1053.01px;
+        }
+        .right{
+            float: right;
+            width: 20%;
+            height: 1053.01px;
+        }
+        .big{
+            text-align: center;
+            margin: 0 20%;
+            background-color: rgba(38, 36, 36, 0.3);
+        }
+            .navli a:hover{
+                background-color: rgb(198, 205, 218);
+            }
+            .navdropul{
+                background-color: rgb(156, 147, 147);
+            }
+            .nav a{
+                color: rgb(232, 232, 225);
+            }
+            .navdropul2{
+                background-color: rgb(156, 147, 147);
+            }   
+    </style>
+</head>
+<body>
+    <header id="top4">
+        <div class="nav" style="background-color: rgb(156, 147, 147);">
+            <div class="navname">
+                <P style="color: rgb(232, 232, 225);">Starfield</P>
+            </div>
+            <div>
+            <ul>
+                <li class="navli"><a href="index.html">首页</a>
+                </li>
+                <li class="navli"><a href="index.html#gamelist">出品游戏</a>
+                    <ul class="navdropul">
+                        <li><a href="fallout.html">辐射系列</a></li>
+                        <li><a href="The elder scrolls.html">上古卷轴系列</a></li>
+                        <li><a href="doom.html">DOOM系列</a></li>
+                    </ul>
+                </li>
+                <li class="navli"><a href="index.html#gamelist">游戏新品</a>
+                    <ul class="navdropul">
+                        <li><a href="starfield.html">星空</a></li>
+                        <li><a href="fallout.html#fallout76">辐射76</a></li>
+                    </ul>
+                </li>
+                <li class="navli"><a href="gs.html">公司</a>
+                    <ul class="navdropul">
+                        <li><a href="gs.html#weiruan">母公司</a>
+                            <ul class="navdropul2">
+                                <li><a href="gs.html#weiruan">Microsoft</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="gs.html#ids">工作室</a>
+                            <ul class="navdropul2">
+                                <li><a href="gs.html#bgs">BGS工作室</a></li>
+                                <li><a href="gs.html#ids">Id Software </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navli"><a href="#">报告与技术</a>
+                    <ul class="navdropul">
+                        <li><a href="Login.html">登录</a>
+                        </li>
+                        <li><a href="conclusion.html">报告页</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+    </header>
+    <main style="overflow: hidden;">
+        <div class="backtop1">
+            <a href="#top4" style="background-color: rgb(156, 147, 147);">回到顶部</a>
+        </div>
+    <div class="div2">
+        <div class="a" style="height: 500px;">
+           <div class="b">
+              <div class="c" style="--i:0"></div>
+              <div class="d" style="--i:1"></div>
+               <div class="e" style="--i:2"></div>
+            </div>
+        </div>
+    <br><br><br>
+        <div style="height: 300px; margin-bottom: 400px;" class="div3">
+        <h1> <span>S</span> <span>t</span> <span>a</span> <span>r</span> <span>F</span> <span>i</span> <span>e</span> <span>l</span> <span>d</span> </h1>
+        </div>
+    </div>
+    <div class="bigone">
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="big">
+            <div class="starintro">
+                <div class="starintropic">
+                    <img src="pic/starfieldpic/starfieldlogo.jpg">
+                </div>
+                <div class="wenzi">
+                    <p style="text-align: center; color: azure;" >《Starfield》，由载誉无数、为大家带来过《The Elder Scrolls V: Skyrim》和《Fallout 4》的Bethesda Game Studios，在近25年里构建的首个全新宇宙。这款新一代角色扮演游戏将背景设定在茫茫宇宙。在这里，你可以创建任意角色，探索世界并体验前所未有的自由。踏上这趟史诗般的旅程，发掘人类文明的终极奥秘。</p>
+                    </div>
+            </div>
+            <div class="fenge"></div>
+            <div class="div1">
+            <video width="60%" controls="controls">
+            <source src="video/【𝟒𝐊】《星空》预告首曝 2022年11月11日发售 - 2.Starfield - Official Teaser Trailer(Av418583254,P2).mp4" type="video/mp4"></source>
+            </video>
+            </div>
+            <div class="wenzi2">
+                <p style="color: azure; text-align: center;">故事发生在2330年。那时，人类冒险走出了太阳系，在新的星球上定居下来，过起了太空旅者的生活。在这款Bethesda Game Studios迄今为止最宏大的游戏里，你将作为一名名不见经传的星际矿工，加入群星组织（一个在星系中寻找稀有神器的太空探险者群组），并开启冒险探索之旅。</p>
+                </div>
+            <div class="fenge"></div>
+            <div class="div1">
+            <video width="60%" controls="controls">
+            <source src="video/【𝟒𝐊】《星空》预告首曝 2022年11月11日发售 - 1.最新2022_6_13Starfield - Official Gamepl(Av418583254,P1).mp4" type="video/mp4"></source>
+                </video>
+                </div>
+            <div class="wenzi2">
+                <p style="color: azure; text-align: center;">这个视频展示了星空实机演示的一部分</p>
+            </div>
+            <div class="fenge"></div>
+        </div>
+    </div>
+    </main>
+</body>
+</html>
