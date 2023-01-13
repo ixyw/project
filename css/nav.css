@@ -1,0 +1,80 @@
+div.nav{
+    height: 70px;
+    background-color: cornsilk;
+    box-shadow: 0 2px 2px rgb(141, 136, 136);
+    position: relative;
+    z-index: 999;
+}
+div.navname{
+    width: 400px;
+    float: left;
+    overflow: hidden;
+}
+.navname p{
+    line-height: 70px;
+    text-align: center;
+    font-size: 40px;
+}
+.navli{
+    float: left;
+    line-height: 70px;
+    text-align: center;
+    height: 70px;
+    width: 100px;
+}
+.navli a{
+    color: rgb(107, 101, 101);
+    display: block;
+}
+.navli a:hover{
+    background-color: rgb(204, 204, 204);
+}
+.navli:hover .navdropul{
+    transform: scaleY(1);
+}
+.navdropul {
+    background-color: cornsilk;
+    box-shadow: 0 2px 2px rgb(141, 136, 136);
+    transition: all 0.4s;
+    transform: scaleY(0);
+    transform-origin: 0% 0;
+}
+.navdropul li{
+    border-top:1px solid rgb(162, 153, 153) ;
+    position: relative;  
+}
+.navdropul li:hover .navdropul2{
+    display: block;
+    position: absolute;
+    top:0;
+    left: 100px;
+}
+.navdropul2 {
+    background-color: cornsilk;
+    box-shadow: 0 2px 2px rgb(141, 136, 136);
+    display: none;
+    
+}
+.navdropul2 li{
+    width: 100px;
+}
+.backtop1{
+    position: fixed;
+    bottom: 0;
+    width: 6%;
+    height: 40px;
+    z-index: 9999;
+}
+.backtop1 a{
+    color: rgb(107, 101, 101);
+    display: block;
+    background-color: cornsilk;
+    line-height: 40px;
+    text-align: center;
+}
+.backtop1:hover a{
+    background-color: rgb(204, 204, 204);
+}
+
+
+

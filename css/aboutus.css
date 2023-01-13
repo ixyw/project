@@ -1,0 +1,178 @@
+.about{
+    width: 100%;
+    background-color: rgb(198, 221, 240);
+}
+.aboutopen{
+    background-color: rgb(201, 222, 241);
+}
+.aboutopen h2{
+    padding-left: 30px;
+}
+.aboutcontent{
+    position: relative;
+    z-index: 100;
+}
+.aboutcontent1{
+    height: 290px;
+}
+.aboutcontent2{
+    height: 300px;
+}
+.aboutcontent3{
+    height: 240px;
+}
+.aboutcontent1_1{
+    float: left;
+    width: 40%;
+    height: 220px;
+}
+.aboutcontent1_2{
+    float: right;
+    width: 60%;
+    height: 220px;
+}
+.aboutcontent2_1{
+    height: 220px;
+    float: left;
+    width: 60%;
+}
+.aboutcontent2_2{
+    height: 220px;
+    float: right;
+    width: 40%;
+}
+.aboutcontent3_1{
+    height: 200px;
+    float: left;
+    width: 50%;
+}
+.aboutcontent3_2{
+    height: 200px;
+    float: left;
+    width: 50%;
+}
+
+p.aboutusp0{
+    margin-left: 16%;
+    text-align: center;
+        font-size: 60px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        color: #774f38;
+        background-color: #ece5ce;
+        padding: 50px;
+        box-shadow: 10px 20px #7f9088;
+        border-radius: 11px;
+        mix-blend-mode: multiply;
+        animation: aboutfloat 5s ease-in-out infinite;
+        width: 50%;
+}
+p.aboutusp0_1{
+        margin-left:10%;
+        text-align: center;
+            font-size: 60px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 15px;
+            color: #774f38;
+            background-color: #ece5ce;
+            box-shadow: 10px 20px #7f9088;
+            border-radius: 11px;
+            mix-blend-mode: multiply;
+            animation: aboutfloat 5s ease-in-out infinite;
+            width: 70%;
+            overflow: hidden;
+            height: 95%;
+}
+p.aboutusp0_1 img{
+    height: 100%;
+    width: 100%;
+}
+p.aboutusp1{
+    margin-left:10%;
+        text-align: center;
+            font-size: 60px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 15px;
+            color: #774f38;
+            background-color: #ece5ce;
+            box-shadow: 10px 20px #7f9088;
+            border-radius: 11px;
+            mix-blend-mode: multiply;
+            animation: aboutfloat 5s ease-in-out infinite;
+            width: 70%;
+            overflow: hidden;
+            height: 100%;
+}
+p.aboutusp1 img{
+    height: 100%;
+    width: 100%;
+}
+p.aboutusp1_1{
+    margin-left: 6%;
+    text-align: center;
+        font-size: 60px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        color: #774f38;
+        background-color: #ece5ce;
+        padding: 50px;
+        box-shadow: 10px 20px #7f9088;
+        border-radius: 11px;
+        mix-blend-mode: multiply;
+        animation: aboutfloat 5s ease-in-out infinite;
+        width: 50%;
+}
+p.aboutusp2{
+    margin-left:60%;
+        text-align: center;
+            font-size: 60px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 15px;
+            color: #774f38;
+            background-color: #ece5ce;
+            box-shadow: 10px 20px #7f9088;
+            border-radius: 11px;
+            mix-blend-mode: multiply;
+            animation: aboutfloat 5s ease-in-out infinite;
+            width: 30%;
+            overflow: hidden;
+            height: 100%;
+}
+p.aboutusp2 img{
+    height: 100%;
+    width: 100%;
+}
+p.aboutusp2_1{
+    margin-left:5%;
+        text-align: center;
+            font-size: 60px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 15px;
+            color: #774f38;
+            background-color: #ece5ce;
+            box-shadow: 10px 20px #7f9088;
+            border-radius: 11px;
+            mix-blend-mode: multiply;
+            animation: aboutfloat 5s ease-in-out infinite;
+            width: 30%;
+            overflow: hidden;
+            padding: 80px;
+}
+
+@keyframes aboutfloat{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

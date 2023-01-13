@@ -1,0 +1,19 @@
+.footer{
+    height: 84px;
+    background-color: rgb(148, 204, 227);
+    width: auto;
+    margin: 0 6%;
+}
+.footer p{
+    line-height: 80px;
+    text-align: center;
+}
+.footer_2{
+    height: 80px;
+    background-color: rgb(236, 222, 182);
+    width: auto;
+}
+.footer_2 p{
+    line-height: 80px;
+    text-align: center;
+}

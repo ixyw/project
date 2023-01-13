@@ -1,0 +1,17 @@
+div.maxmain{
+    margin: 0 6%;
+    
+    width: auto;
+}
+div.aside1{
+    float: left;
+    background-color: rgb(155, 147, 147);
+    width: 6%;
+    height: 3744.80px;
+}
+div.aside2{
+    float: right;
+    background-color: rgb(155, 147, 147);
+    height: 3744.80px;
+    width: 6%;
+}
